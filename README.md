@@ -16,12 +16,12 @@ SWITCH CLIENTES:
   
 ![image](https://github.com/user-attachments/assets/c9d015b1-5afd-495b-b259-84c7b7ed6fb8)
 
-SERVIDOR PROXMOX
-CPU: i5-3330 
-RAM: 8GB RAM DDR3 1333 MHz
-FUENTE 450W 80 PLUS BRONZE
-DISCOS: 1 HDD 1TB, 2 HDD 500GB, 1 HDD 160GB
-TARGETA DE RED: 1 TARGETA DE RED EXTRA 1 GBPS
+SERVIDOR PROXMOX:
+- CPU: i5-3330 
+- RAM: 8GB RAM DDR3 1333 MHz
+- FUENTE 450W 80 PLUS BRONZE
+- DISCOS: 1 HDD 1TB, 2 HDD 500GB, 1 HDD 160GB
+- TARGETA DE RED: 1 TARGETA DE RED EXTRA 1 GBPS
 No es un servidor muy potente pero actualmente cubre las necessidades a nivel personal. 
 
 Actualmente en mi hipervisor, estoy virtualizando 1 maquina virtual y 3 contenedores. La maquina virtual es un TrueNAS, donde tengo un passtrought de 3 discos fisicos, 1 para el s.o de 160GB y dos de 500GB que forman un RAID ESPEJO, para tener un poco de redundancia. Ademas en los procesadores, utilitzo el tipo "Host", para que utilitze los nucelos e hilos directamente de la CPU. 
