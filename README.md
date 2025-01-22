@@ -29,14 +29,16 @@ Las dos VLANS utilizadas en mi red, como he mencionado anteriormente están enca
 
 - Servidor VPN WIREGUARD:
 ![image](https://github.com/user-attachments/assets/6573f96c-d043-4222-8d72-f9efe3edcfd1)
+
 - VLANS
 ![image](https://github.com/user-attachments/assets/d80a5a50-3891-407d-8027-fad07a864c15)
+
 - ASSIGNACIÓN IPs:
 ![image](https://github.com/user-attachments/assets/e87a6083-19a9-4b59-b040-0b572e6650fe)
+
 - SERVIDOR DHCP:
 ![image](https://github.com/user-attachments/assets/c3de47e0-e25c-43f1-8b1b-72654da12fb3)
 ![Uploading image.png…]()
-
 
 
 CLUSTER PROXMOX:
