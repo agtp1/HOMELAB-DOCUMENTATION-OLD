@@ -16,7 +16,14 @@ SWITCH CLIENTES:
   
 ![image](https://github.com/user-attachments/assets/c9d015b1-5afd-495b-b259-84c7b7ed6fb8)
 
-SERVIDOR PROXMOX:
+CLUSTER PROXMOX:
+NODE 1
+- MINI PC Teclast n10
+- 6GB ram SODIMM DDR4
+- CPU Celeron N4000 2 nucleos 2 hilos 2,6 GHz
+- Disco Duro Externo SSD KINGSTON 240 SATA
+
+NODE 2
 - CPU: i5-3330 
 - RAM: 8GB RAM DDR3 1333 MHz
 - FUENTE 450W 80 PLUS BRONZE
@@ -24,7 +31,25 @@ SERVIDOR PROXMOX:
 - TARGETA DE RED: 1 TARGETA DE RED EXTRA 1 GBPS
 No es un servidor muy potente pero actualmente cubre las necessidades a nivel personal. 
 
-Actualmente en mi hipervisor, estoy virtualizando 1 maquina virtual y 3 contenedores. La maquina virtual es un TrueNAS, donde tengo un passtrought de 3 discos fisicos, 1 para el s.o de 160GB y dos de 500GB que forman un RAID ESPEJO, para tener un poco de redundancia. Ademas en los procesadores, utilitzo el tipo "Host", para que utilitze los nucelos e hilos directamente de la CPU. 
+FUNCIONES NODO 1:
+En el nodo 1 simplemente estoy corriendo 4 contenedores:
+- ADBLOCKER: Adguard
+- DASHBOARD: Homarr
+- PROXY: Nginx Proxy Manager
+- GESTOR PASSWORDS: VaultWarden
+CONSUMOS NODO 1:
+Aunque parezcan pocos recursos, la CPU Y la RAM, son mas que suficientes para mantener activos y en correcto funcionamiento los servicios que necesito.
+![image](https://github.com/user-attachments/assets/6725ce7b-9dec-42f6-bf01-45e6e5a631a1)
+
+
+![image](https://github.com/user-attachments/assets/bd602392-47f6-4571-825a-dd0ed2bad044)
+
+
+
+
+
+
+
 
 ## UPDATES
 OBVIAMENTE TENGO PENSADO HACER UPDATES
