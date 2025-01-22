@@ -38,15 +38,18 @@ En el nodo 1 simplemente estoy corriendo 4 contenedores:
 - PROXY: Nginx Proxy Manager
 - GESTOR PASSWORDS: VaultWarden
 CONSUMOS NODO 1:
-Aunque parezcan pocos recursos, la CPU Y la RAM, son mas que suficientes para mantener activos y en correcto funcionamiento los servicios que necesito.
+Aunque parezcan pocos recursos, la CPU Y la RAM, son más que suficientes para mantener activos y en correcto funcionamiento los servicios que necesito.
 ![image](https://github.com/user-attachments/assets/6725ce7b-9dec-42f6-bf01-45e6e5a631a1)
-
-
 ![image](https://github.com/user-attachments/assets/bd602392-47f6-4571-825a-dd0ed2bad044)
 
 
+FUNCIONES NODO 2:
+En el nodo 2 actualmente solo tengo corriendo un TrueNAS, donde tengo varias carpetas compartidas vía SAMBA, también gestiono las COPIAS DE SEGURIDAD, tanto de PROXMOX, como del propio TrueNAS. En este TrueNAS, he realizado un PASSTROUGHT, de 3 discos físicos. 1 de 160GB donde simplemente está instalado el s.o, y 2 de 500GB cada uno que forman un RAID1. Dentro de TrueNAS, tengo corriendo un pequeño servidor de vídeo, concretamente Jellyfin. Donde actualmente tengo algunos capítulos de algunas series que me gustaría ver. Además, los núcleos asignados a esta máquina virtual, están en modo HOST, para que la máquina virtual utilice directamente los núcleos de la CPU. Un espacio de TrueNAS, está dedicado para las copias de seguridad de los contenedores del NODO1, este espacio está compartido mediante NFS, y está asignado al propio PROXMOX.
+CONSUMOS NODO 2:
+![image](https://github.com/user-attachments/assets/6e920980-fa33-4240-be01-4b6471b62c1b)
 
 
+![image](https://github.com/user-attachments/assets/5818c098-8522-47f3-91f1-1e8a17752d91)
 
 
 
