@@ -51,6 +51,10 @@ CONSUMOS NODO 2:
 
 ![image](https://github.com/user-attachments/assets/5818c098-8522-47f3-91f1-1e8a17752d91)
 
+CÓPIAS DE SEGURIDAD:
+Mi política de copias de seguridad, es muy simple. Los contenedores que corren en el NODO 1, se hace una copia de seguridad en el espacio NFS, compartido por TrueNAS, luego estas copias se mandan a MEGA. Actualmente, tengo configurado que se realice 1 copiá de cada contenedor a principio de cada mes, ya que estos contenedores a penas sufren cambios. También realizo copias de las carpetas compartidas mas relevantes, que también son enviadas a MEGA. 
+![image](https://github.com/user-attachments/assets/5ea02907-65ec-4146-833f-f0530df6ffda)
+![image](https://github.com/user-attachments/assets/6091a0c8-2d8a-4caf-bae4-7b1b9aa27a25)
 
 
 
