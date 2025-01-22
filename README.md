@@ -42,7 +42,13 @@ Las dos VLANS utilizadas en mi red, como he mencionado anteriormente están enca
 - SERVIDOR DHCP:
   
 ![image](https://github.com/user-attachments/assets/c3de47e0-e25c-43f1-8b1b-72654da12fb3)
-![Uploading image.png…]()
+
+SWITCH PRINCIPAL:
+- El puerto 1 es el puerto TRUNK del SWITCH, es decir esta fisicamente conectado con un cable a mi puerto trunk del router. Es decir que el router se conecta por el puerto 5 y el switch por el puerto 1. Básicamente los puertos trunk ven todas las VLAN. En este caso el puerto 3 y 4 también estan en modo TRUNK, ya que es donde van conectados los dos nodos de proxmox, y me interesa que los dos nodos vean ambas vlans
+![image](https://github.com/user-attachments/assets/213a77e1-48de-4352-8ed2-4e1fc778a8cb)
+![image](https://github.com/user-attachments/assets/cb704308-8c88-410a-b2b8-b55dd8d45e0f)
+
+
 
 
 CLUSTER PROXMOX:
