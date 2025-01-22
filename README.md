@@ -16,7 +16,29 @@ SWITCH CLIENTES:
   
 ![image](https://github.com/user-attachments/assets/c9d015b1-5afd-495b-b259-84c7b7ed6fb8)
 
+DISTRIBUCIÓN RED:
+Salida a internet: Para abrir puerto y salir a internet mantengo el router de mi ISP. Simplemente lo utilizo para tener conectividad a internet.
+ROUTER PRINCIPAL:
+Al router le llega 1 cable a la ETH1, que es por donde salimos a internet. Seguidamente, en la ETH5, es mi puerto TRUNK del ROUTER, es decir en este puerto tengo hecha la encapsulación con las vlans para que el SWITCH PRINCIPAL, pueda gestionar y visualizar estas VLANS. También he metido la ETH5, en un BRIDGE, a este BRIDGE. le he asignado una IP y he creado un DHCP, para que el SWITCH PRINCIPAL, reciba una IP. 
+![image](https://github.com/user-attachments/assets/a4b78863-12ed-4e0e-85bd-0d095123d9dc)
+![image](https://github.com/user-attachments/assets/5d183738-58ba-40dd-a96e-06ee83921f12)
+Las dos VLANS utilizadas en mi red, como he mencionado anteriormente están encapsuladas y asignadas al puerto TRUNK del ROUTER, es decir que cuelgan del ROUTER
+![image](https://github.com/user-attachments/assets/82b35362-d5e8-4ade-9225-6a75976cfc50)
+
+- Servidor VPN WIREGUARD:
+![image](https://github.com/user-attachments/assets/6573f96c-d043-4222-8d72-f9efe3edcfd1)
+- VLANS
+![image](https://github.com/user-attachments/assets/d80a5a50-3891-407d-8027-fad07a864c15)
+- ASSIGNACIÓN IPs:
+![image](https://github.com/user-attachments/assets/e87a6083-19a9-4b59-b040-0b572e6650fe)
+- SERVIDOR DHCP:
+![image](https://github.com/user-attachments/assets/c3de47e0-e25c-43f1-8b1b-72654da12fb3)
+![Uploading image.png…]()
+
+
+
 CLUSTER PROXMOX:
+
 NODE 1
 - MINI PC Teclast n10
 - 6GB ram SODIMM DDR4
@@ -55,6 +77,8 @@ CÓPIAS DE SEGURIDAD:
 Mi política de copias de seguridad, es muy simple. Los contenedores que corren en el NODO 1, se hace una copia de seguridad en el espacio NFS, compartido por TrueNAS, luego estas copias se mandan a MEGA. Actualmente, tengo configurado que se realice 1 copiá de cada contenedor a principio de cada mes, ya que estos contenedores a penas sufren cambios. También realizo copias de las carpetas compartidas mas relevantes, que también son enviadas a MEGA. 
 ![image](https://github.com/user-attachments/assets/5ea02907-65ec-4146-833f-f0530df6ffda)
 ![image](https://github.com/user-attachments/assets/6091a0c8-2d8a-4caf-bae4-7b1b9aa27a25)
+![image](https://github.com/user-attachments/assets/768b7a18-3fc2-4962-a127-c8590f55e9ba)
+
 
 
 
