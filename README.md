@@ -26,6 +26,7 @@ ROUTER PRINCIPAL:
 
 
 Las tres VLANS utilizadas en mi red, como he mencionado anteriormente están encapsuladas y asignadas al puerto TRUNK del ROUTER, es decir que cuelgan del ROUTER
+
 ![image](https://github.com/user-attachments/assets/dc738316-7a97-4c16-9610-e643ad011b88)
 
 
