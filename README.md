@@ -140,6 +140,14 @@ PRUEBAS VELOCIDAD:
 
 - Wifi
 
+
+## "RACK"
+No dispongo de rack, pero actualmente, con los dispositivos sencillos que tengo no me hace falta, y más o menos puedo tenerlo todo medianamente organizado fácilmente.
+
+![image](https://github.com/user-attachments/assets/a474738f-73c1-4c0f-b95f-89705d2b4474)
+
+
+
 ## UPDATES
 OBVIAMENTE TENGO PENSADO HACER UPDATES
 
