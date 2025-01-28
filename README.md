@@ -73,6 +73,7 @@ En el nodo 1 simplemente estoy corriendo 4 contenedores:
 - DASHBOARD: Homarr
 - PROXY: Nginx Proxy Manager
 - GESTOR PASSWORDS: VaultWarden
+- MONITORIZACIÓN: UptimeKuma
 CONSUMOS NODO 1:
 Aunque parezcan pocos recursos, la CPU Y la RAM, son más que suficientes para mantener activos y en correcto funcionamiento los servicios que necesito.
 ![image](https://github.com/user-attachments/assets/6725ce7b-9dec-42f6-bf01-45e6e5a631a1)
