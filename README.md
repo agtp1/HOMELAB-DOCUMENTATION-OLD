@@ -45,7 +45,12 @@ Las tres VLANS utilizadas en mi red, como he mencionado anteriormente están enc
 
 - SERVIDOR DHCP:
   
-![image](https://github.com/user-attachments/assets/c3de47e0-e25c-43f1-8b1b-72654da12fb3)
+![image](https://github.com/user-attachments/assets/96c16cda-6ec1-454d-870a-57f2005c53e8)
+
+- WIFI
+
+![image](https://github.com/user-attachments/assets/4552862e-35bf-43e0-b402-1cfbea446d1c)
+![image](https://github.com/user-attachments/assets/9728a911-e9d5-48cd-86bb-32888a1350b7)
 
 SWITCH PRINCIPAL:
 - El puerto 1 es el puerto TRUNK del SWITCH, es decir esta fisicamente conectado con un cable a mi puerto trunk del router. Es decir que el router se conecta por el puerto 5 y el switch por el puerto 1. Básicamente los puertos trunk ven todas las VLAN. En este caso el puerto 3 y 4 también estan en modo TRUNK, ya que es donde van conectados los dos nodos de proxmox, y me interesa que los dos nodos vean ambas vlans. Y el puerto 1, esta assignado la vlan 30, ya que aquí es donde se conecta la camara de seguridad.
@@ -121,8 +126,19 @@ Mi política de copias de seguridad, es muy simple. Los contenedores que corren 
 ![image](https://github.com/user-attachments/assets/6091a0c8-2d8a-4caf-bae4-7b1b9aa27a25)
 ![image](https://github.com/user-attachments/assets/768b7a18-3fc2-4962-a127-c8590f55e9ba)
 
+PRUEBAS VELOCIDAD:
+- Ethernet
 
 
+
+
+
+- Vpn
+
+
+
+
+-Wifi
 
 ## UPDATES
 OBVIAMENTE TENGO PENSADO HACER UPDATES
