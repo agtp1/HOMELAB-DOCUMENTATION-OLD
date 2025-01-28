@@ -20,7 +20,8 @@ DISTRIBUCIÓN RED:
 - Salida a internet: Para abrir puerto y salir a internet mantengo el router de mi ISP. Simplemente lo utilizo para tener conectividad a internet.
 ROUTER PRINCIPAL:
 - Al router le llega 1 cable a la ETH1, que es por donde salimos a internet. Seguidamente, en la ETH5, es mi puerto TRUNK del ROUTER, es decir en este puerto tengo hecha la encapsulación con las vlans para que el SWITCH PRINCIPAL, pueda gestionar y visualizar estas VLANS. También he metido la ETH5, en un BRIDGE, a este BRIDGE. le he asignado una IP y he creado un DHCP, para que el SWITCH PRINCIPAL, reciba una IP.
-  
+- Para la parte wifi, de momento el router está funcionando como ap, ya que actualmente no dispongo de un ap. Tengo configurada las dos antenas, tanto la de 2,4 GHz como la de 5 Ghz. Disponen las 2 del mismo SSID, de esta forma, el propio cliente, elegirá a que banda conectarse dependiendo de la situación donde esté el cliente.
+    
 ![image](https://github.com/user-attachments/assets/a4b78863-12ed-4e0e-85bd-0d095123d9dc)
 ![image](https://github.com/user-attachments/assets/5d183738-58ba-40dd-a96e-06ee83921f12)
 
