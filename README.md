@@ -74,10 +74,29 @@ No es un servidor muy potente pero actualmente cubre las necessidades a nivel pe
 FUNCIONES NODO 1:
 En el nodo 1 simplemente estoy corriendo 4 contenedores:
 - ADBLOCKER: Adguard
+
+![image](https://github.com/user-attachments/assets/79c02160-3f5b-452b-8f16-c599ef1f7d47)
+
+ 
 - DASHBOARD: Homarr
+
+![image](https://github.com/user-attachments/assets/c1390a65-6dfa-447f-a59b-2eec6679aaf6)
+
+
 - PROXY: Nginx Proxy Manager
+
+![image](https://github.com/user-attachments/assets/dfd765ed-ce17-42f9-bd99-47e523b37717)
+
+
 - GESTOR PASSWORDS: VaultWarden
+
+![image](https://github.com/user-attachments/assets/1525570c-bd01-4b54-b7e3-eea283b56343)
+
+  
 - MONITORIZACIÓN: UptimeKuma
+
+  ![image](https://github.com/user-attachments/assets/2fe61ea1-fb33-45d2-9d81-056f65bba63d)
+
   
 CONSUMOS NODO 1:
 Aunque parezcan pocos recursos, la CPU Y la RAM, son más que suficientes para mantener activos y en correcto funcionamiento los servicios que necesito.
