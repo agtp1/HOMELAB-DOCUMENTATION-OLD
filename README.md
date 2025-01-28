@@ -149,5 +149,8 @@ No dispongo de rack, pero actualmente, con los dispositivos sencillos que tengo 
 
 
 ## UPDATES
-OBVIAMENTE TENGO PENSADO HACER UPDATES
-
+He realizado mi homelab con lo que tengo a mano, y muy poco a poco. No es gran cosa, pero con el presupuesto que tengo cubre mis necesidades.
+- Me gustaría añadir un SAI sí o sí. En mi zona no tengo cortes eléctricos. Alguna vez puede pasar pero muy de vez en cuando.
+- AP Unifi. Y ya que añado un ap unifi, si en un futuro me lo puedo permitir me encantaría añadir junto al ap el Cloud Gateway Ultra. Aunque realmente no me hace falta, ya que con el router que dispongo puedo realizar de todo, este sería más un capricho.
+- A nivel de servidores, expandir mi almacenamiento. Me gustaria añadir dos HDD de 6 TB cada uno y formam un RAID 1. Añadirlo a TrueNAS, ya que es donde realizo los backups, los sincronizo con la nube y comparto almacenamiento en red.
+- Enlaces a 10 GBPS, me encantaría tener la posibilidad de agregar enlaces a 10 GBPS entre el servidor TrueNAS y el resto de dispositivos locales.   
