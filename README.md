@@ -83,7 +83,8 @@ CONSUMOS NODO 1:
 Aunque parezcan pocos recursos, la CPU Y la RAM, son más que suficientes para mantener activos y en correcto funcionamiento los servicios que necesito.
 
 ![image](https://github.com/user-attachments/assets/6725ce7b-9dec-42f6-bf01-45e6e5a631a1)
-![image](https://github.com/user-attachments/assets/bd602392-47f6-4571-825a-dd0ed2bad044)
+![image](https://github.com/user-attachments/assets/249f0f1b-741d-427a-9981-19cb442aa3ad)
+
 
 
 FUNCIONES NODO 2:
