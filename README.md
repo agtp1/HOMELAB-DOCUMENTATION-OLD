@@ -48,8 +48,11 @@ Las tres VLANS utilizadas en mi red, como he mencionado anteriormente están enc
 
 SWITCH PRINCIPAL:
 - El puerto 1 es el puerto TRUNK del SWITCH, es decir esta fisicamente conectado con un cable a mi puerto trunk del router. Es decir que el router se conecta por el puerto 5 y el switch por el puerto 1. Básicamente los puertos trunk ven todas las VLAN. En este caso el puerto 3 y 4 también estan en modo TRUNK, ya que es donde van conectados los dos nodos de proxmox, y me interesa que los dos nodos vean ambas vlans. Y el puerto 1, esta assignado la vlan 30, ya que aquí es donde se conecta la camara de seguridad.
-![image](https://github.com/user-attachments/assets/213a77e1-48de-4352-8ed2-4e1fc778a8cb)
-![image](https://github.com/user-attachments/assets/cb704308-8c88-410a-b2b8-b55dd8d45e0f)
+  
+![image](https://github.com/user-attachments/assets/5df0c862-8a06-465d-aee2-8e3bccc3616d)
+![image](https://github.com/user-attachments/assets/345e2a83-48c4-4513-899b-df8f4d06f2a8)
+![image](https://github.com/user-attachments/assets/8d9b50f6-19a2-41df-81e5-f33f88a25fce)
+
 
 
 CLUSTER PROXMOX:
