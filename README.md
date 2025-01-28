@@ -24,8 +24,10 @@ ROUTER PRINCIPAL:
 ![image](https://github.com/user-attachments/assets/a4b78863-12ed-4e0e-85bd-0d095123d9dc)
 ![image](https://github.com/user-attachments/assets/5d183738-58ba-40dd-a96e-06ee83921f12)
 
-Las dos VLANS utilizadas en mi red, como he mencionado anteriormente están encapsuladas y asignadas al puerto TRUNK del ROUTER, es decir que cuelgan del ROUTER
-![image](https://github.com/user-attachments/assets/82b35362-d5e8-4ade-9225-6a75976cfc50)
+
+Las tres VLANS utilizadas en mi red, como he mencionado anteriormente están encapsuladas y asignadas al puerto TRUNK del ROUTER, es decir que cuelgan del ROUTER
+![image](https://github.com/user-attachments/assets/dc738316-7a97-4c16-9610-e643ad011b88)
+
 
 - Servidor VPN WIREGUARD:
   
