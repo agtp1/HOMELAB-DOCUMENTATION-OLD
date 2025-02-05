@@ -141,10 +141,19 @@ PRUEBAS VELOCIDAD:
 - Wifi
 
 
+CAMARAS SEGURIDAD:
+- Actualmente dispongo de 2 camars de seguridad, 1 mas moderna que esta en la entrada, esta esta conectada via wifi.
+- Luego tengo una "vieja" que me regalaron porque la iban a tirar y decidí aprovecharla mediante el software YOOSE, que es un software genérico para cámaras, esta camara la tengo dentro del rack mas que nada para toquetear un poco. 
+
+![image](https://github.com/user-attachments/assets/387e350f-4c35-4dd3-aa90-fe946f93fd15)
+
+
 ## "RACK"
 No dispongo de rack, pero actualmente, con los dispositivos sencillos que tengo no me hace falta, y más o menos puedo tenerlo todo medianamente organizado fácilmente.
 
-![image](https://github.com/user-attachments/assets/a474738f-73c1-4c0f-b95f-89705d2b4474)
+![image](https://github.com/user-attachments/assets/0b774687-0738-41be-b713-338406319597)
+
+
 
 
 
